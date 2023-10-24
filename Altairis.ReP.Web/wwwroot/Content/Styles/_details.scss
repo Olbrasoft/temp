@@ -1,0 +1,21 @@
+﻿@import "_vars.scss";
+
+table.details {
+    width: 100%;
+    border-collapse: collapse;
+
+    td, th {
+        padding: calc($Padding / 2);
+        text-align: left;
+        vertical-align: top;
+        border-top: solid 1px rgba($Accent, .25);
+    }
+
+    tbody {
+        tr {
+            &:hover {
+                background-color: rgba($Accent, .15) !important;
+            }
+        }
+    }
+}

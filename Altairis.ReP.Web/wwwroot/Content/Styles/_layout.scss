@@ -1,0 +1,127 @@
+﻿@import "_vars.scss";
+@import "_rnav.scss";
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    background-color: $Accent;
+    color: $White;
+    font-family: $FontFamily;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+
+    body {
+        max-width: $StopMax;
+        background-color: $White;
+        color: $Black;
+        margin: $Padding auto;
+        padding: $Padding;
+
+        @media (max-width: $StopMin) {
+            margin: 0 auto;
+        }
+
+        > header {
+            .lang {
+                float: right;
+            }
+        }
+
+        > nav {
+            a {
+                &:link, &:visited {
+                    color: $White;
+                }
+            }
+
+            @include rnav($WideAlign: left, $HoverBackColor: $Accent, $HoverColor: $White, $WidthStop: $StopMin);
+        }
+
+        > footer {
+            font-size: 80%;
+            color: $Accent;
+            text-align: right;
+            border-top: 2px solid $Accent;
+            margin-top: $Padding;
+            padding-top: calc($Padding / 2);
+
+            img {
+                margin-right: $Padding;
+            }
+
+            @media(max-width: $StopMin) {
+                text-align: center;
+
+                img.fl {
+                    float: none;
+                    margin: 0 calc($Padding / 2);
+                }
+
+                #copyright {
+                    clear: both;
+                    margin-top: calc($Padding / 2);
+                }
+            }
+        }
+    }
+}
+
+a {
+    &:link, &:visited {
+        color: $Accent;
+    }
+
+    &:hover, &:active {
+        color: $Black;
+    }
+}
+
+.l {
+    text-align: left !important;
+}
+
+.r {
+    text-align: right !important;
+}
+
+.c {
+    text-align: center !important;
+}
+
+strong, .strong {
+    font-weight: bold;
+}
+
+small, .small {
+    font-size: 80%;
+}
+
+em, .em {
+    font-style: italic;
+}
+
+.tag {
+    padding: 0 .5ex;
+    border-radius: 3px;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.infobox {
+    font-style: italic;
+    background-color: rgba($Accent, .1);
+    padding: $Padding;
+
+    i {
+        color: $Accent;
+    }
+}

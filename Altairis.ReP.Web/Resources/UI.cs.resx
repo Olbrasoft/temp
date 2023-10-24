@@ -1,0 +1,543 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Admin_Index_ManageNews" xml:space="preserve">
+    <value>Správa novinek</value>
+  </data>
+  <data name="Admin_Index_ManageOpeningHours" xml:space="preserve">
+    <value>Správa otevírací doby</value>
+  </data>
+  <data name="Admin_Index_ManageReservations" xml:space="preserve">
+    <value>Správa rezervací</value>
+  </data>
+  <data name="Admin_Index_ManageResources" xml:space="preserve">
+    <value>Správa prostředků</value>
+  </data>
+  <data name="Admin_Index_ManageUsers" xml:space="preserve">
+    <value>Správa uživatelů</value>
+  </data>
+  <data name="Admin_Index_Title" xml:space="preserve">
+    <value>Správa systému</value>
+  </data>
+  <data name="Admin_NewsMessages_Create_Title" xml:space="preserve">
+    <value>Vytvořit novou novinku</value>
+  </data>
+  <data name="Admin_NewsMessages_Edit_DeleteConfirm" xml:space="preserve">
+    <value>Opravdu chcete tuto novinku odstranit?</value>
+  </data>
+  <data name="Admin_NewsMessages_Edit_Title" xml:space="preserve">
+    <value>Upravit novinku</value>
+  </data>
+  <data name="Admin_NewsMessages_Index_Msg_Created" xml:space="preserve">
+    <value>Novinka byla úspěšně vytvořena.</value>
+  </data>
+  <data name="Admin_NewsMessages_Index_Msg_Deleted" xml:space="preserve">
+    <value>Novinka byla úspěšně odstraněna.</value>
+  </data>
+  <data name="Admin_NewsMessages_Index_Msg_Saved" xml:space="preserve">
+    <value>Novinka byla úspěšně změněna.</value>
+  </data>
+  <data name="Admin_NewsMessages_Index_Title" xml:space="preserve">
+    <value>Novinky</value>
+  </data>
+  <data name="Admin_OpeningHours_Add" xml:space="preserve">
+    <value>Přidat výjimku</value>
+  </data>
+  <data name="Admin_OpeningHours_Add_Text" xml:space="preserve">
+    <value>Pokud je zavřeno po celý den, nastavte otevírací i zavírací dobu na půlnoc.</value>
+  </data>
+  <data name="Admin_OpeningHours_DeleteConfirm" xml:space="preserve">
+    <value>Opravdu chcete odstranit tuto výjimku otevírací doby?</value>
+  </data>
+  <data name="Admin_OpeningHours_Exceptions" xml:space="preserve">
+    <value>Výjimky</value>
+  </data>
+  <data name="Admin_OpeningHours_Msg_Created" xml:space="preserve">
+    <value>Výjimka otevírací doby byla úspěšně vytvořena.</value>
+  </data>
+  <data name="Admin_OpeningHours_Msg_Deleted" xml:space="preserve">
+    <value>Výjimka otevírací doby byla úspěšně odstraněna.</value>
+  </data>
+  <data name="Admin_OpeningHours_Standard" xml:space="preserve">
+    <value>Standardní</value>
+  </data>
+  <data name="Admin_OpeningHours_Title" xml:space="preserve">
+    <value>Otevírací doba</value>
+  </data>
+  <data name="Admin_Reservations_Edit_Msg_Saved" xml:space="preserve">
+    <value>Změny rezervace byly úspěšně uloženy.</value>
+  </data>
+  <data name="Admin_Reservations_Edit_Title" xml:space="preserve">
+    <value>Editovat rezervaci prostředku {0} pro uživatele {1}</value>
+  </data>
+  <data name="Admin_Reservations_Index_Title" xml:space="preserve">
+    <value>Všechny rezervace</value>
+  </data>
+  <data name="Admin_Reservations_NoReservations" xml:space="preserve">
+    <value>V systému nejsou žádné rezervace.</value>
+  </data>
+  <data name="Admin_Resources_Create_Title" xml:space="preserve">
+    <value>Vytvořit nový prostředek</value>
+  </data>
+  <data name="Admin_Resources_Edit_DeleteConfirm" xml:space="preserve">
+    <value>Opravdu chcete odstranit tento prostředek a všechna související data? Tuto akci nelze vrátit zpět.</value>
+  </data>
+  <data name="Admin_Resources_Edit_Title" xml:space="preserve">
+    <value>Upravit prostředek</value>
+  </data>
+  <data name="Admin_Resources_Index_Msg_Created" xml:space="preserve">
+    <value>Nový prostředek byl úspěšně vytvořen.</value>
+  </data>
+  <data name="Admin_Resources_Index_Msg_Deleted" xml:space="preserve">
+    <value>Prostředek byl úspěšně odstraněn.</value>
+  </data>
+  <data name="Admin_Resources_Index_Msg_Saved" xml:space="preserve">
+    <value>Změny prostředku byly úspěšně uloženy.</value>
+  </data>
+  <data name="Admin_Resources_Index_Title" xml:space="preserve">
+    <value>Prostředky</value>
+  </data>
+  <data name="Admin_Users_Create_Text" xml:space="preserve">
+    <value>Systém odešle uvítací zprávu na zadanou adresu. Uživatel musí účet aktivovat a nastavit heslo na odkazu, který je obsažen ve zprávě.</value>
+  </data>
+  <data name="Admin_Users_Create_Title" xml:space="preserve">
+    <value>Vytvořit nového uživatele</value>
+  </data>
+  <data name="Admin_Users_Edit_DeleteConfirm" xml:space="preserve">
+    <value>Opravdu chcete odstranit tohoto uživatele a všechna související data? Tuto akci nelze vrátit zpět.</value>
+  </data>
+  <data name="Admin_Users_Edit_Title" xml:space="preserve">
+    <value>Editovat uživatele</value>
+  </data>
+  <data name="Admin_Users_Index_Disabled" xml:space="preserve">
+    <value>Uživatel je zakázán</value>
+  </data>
+  <data name="Admin_Users_Index_Enabled" xml:space="preserve">
+    <value>Uživatel je povolen</value>
+  </data>
+  <data name="Admin_Users_Index_Title" xml:space="preserve">
+    <value>Uživatelé</value>
+  </data>
+  <data name="Admin_Users_Index_Waiting" xml:space="preserve">
+    <value>Uživatel čeká na aktivaci</value>
+  </data>
+  <data name="Admin_User_Index_Msg_Created" xml:space="preserve">
+    <value>Nový uživatel byl úspěšně vytvořen.</value>
+  </data>
+  <data name="Admin_User_Index_Msg_Deleted" xml:space="preserve">
+    <value>Uživatel byl úspěšně odstraněn.</value>
+  </data>
+  <data name="Admin_User_Index_Msg_Saved" xml:space="preserve">
+    <value>Změny uživatele byly úspěšně uloženy.</value>
+  </data>
+  <data name="Calendar_GeneralDateFormat" xml:space="preserve">
+    <value>d.</value>
+  </data>
+  <data name="Calendar_NewMonthDateFormat" xml:space="preserve">
+    <value>d. MMMM</value>
+  </data>
+  <data name="FirstRun_Text" xml:space="preserve">
+    <value>V aplikaci nejsou definováni žádní uživatelé. Vytvořte prvního uživatele, který se stane správcem.</value>
+  </data>
+  <data name="FirstRun_Title" xml:space="preserve">
+    <value>Vytvoření administrátora</value>
+  </data>
+  <data name="Layout_LoginStatus_SignIn" xml:space="preserve">
+    <value>Přihlásit se</value>
+  </data>
+  <data name="Layout_LoginStatus_SignOut" xml:space="preserve">
+    <value>Odhlásit se</value>
+  </data>
+  <data name="Layout_Menu_Administration" xml:space="preserve">
+    <value>Administrace</value>
+  </data>
+  <data name="Layout_Menu_Calendar" xml:space="preserve">
+    <value>Kalendář</value>
+  </data>
+  <data name="Layout_Menu_Home" xml:space="preserve">
+    <value>Domů</value>
+  </data>
+  <data name="Layout_Menu_Login" xml:space="preserve">
+    <value>Přihlášení</value>
+  </data>
+  <data name="Layout_Menu_News" xml:space="preserve">
+    <value>Novinky</value>
+  </data>
+  <data name="Layout_Menu_ResetPassword" xml:space="preserve">
+    <value>Reset hesla</value>
+  </data>
+  <data name="Layout_Menu_Settings" xml:space="preserve">
+    <value>Nastavení</value>
+  </data>
+  <data name="Login_Activate_Html" xml:space="preserve">
+    <value>&lt;p&gt;Vítejte na FutLab IS! Vaše uživatelské jméno je &lt;b&gt;{0}&lt;/b&gt;.&lt;/p&gt;
+&lt;p&gt;Chcete-li aktivovat svůj účet, vytvořte heslo. Heslo by mělo být dlouhé a jedinečné. Zvažte použití &lt;i&gt;přístupového žiteje&lt;/i&gt;, celou větu. Je to snadněji zapamatovatelné a bezpečnější než typické heslo.&lt;/p&gt;</value>
+  </data>
+  <data name="Login_Activate_Title" xml:space="preserve">
+    <value>Aktivace nového účtu</value>
+  </data>
+  <data name="Login_ForgotPassword_Text" xml:space="preserve">
+    <value>Pokud tento uživatel existuje, zašleme mu na jeho e-mailovou adresu pokyny k obnovení hesla.</value>
+  </data>
+  <data name="Login_ForgotPassword_Title" xml:space="preserve">
+    <value>Resetovat zapomenuté heslo</value>
+  </data>
+  <data name="Login_ForgotPassword_UserNotFound" xml:space="preserve">
+    <value>Zadaný uživatel nebyl nalezen.</value>
+  </data>
+  <data name="Login_Index_LoginFailed" xml:space="preserve">
+    <value>Přihlášení se nezdařilo.</value>
+  </data>
+  <data name="Login_Index_Msg_ADone" xml:space="preserve">
+    <value>Váš účet byl úspěšně aktivován.
+Nyní se můžete přihlásit pomocí nového hesla.</value>
+  </data>
+  <data name="Login_Index_Msg_AFail" xml:space="preserve">
+    <value>Aktivace uživatele se nezdařila. 
+Zkontrolujte, zda je navštívený odkaz správný a úplný. 
+Uživatel mohl být také aktivován dříve.</value>
+  </data>
+  <data name="Login_Index_Msg_Logout" xml:space="preserve">
+    <value>Byli jste úspěšně odhlášeni.</value>
+  </data>
+  <data name="Login_Index_Msg_Reset" xml:space="preserve">
+    <value>Heslo bylo úspěšně resetováno.
+Nyní se můžete přihlásit pomocí nového hesla.</value>
+  </data>
+  <data name="Login_Index_Msg_Sent" xml:space="preserve">
+    <value>Pokyny k obnovení hesla byly odeslány na e-mailovou adresu registrovanou pro tento účet.
+Postupujte podle pokynů ve zprávě.</value>
+  </data>
+  <data name="Login_Index_Title" xml:space="preserve">
+    <value>Přihlášení</value>
+  </data>
+  <data name="Login_ResetPassword_Title" xml:space="preserve">
+    <value>Nastavení nového hesla</value>
+  </data>
+  <data name="My_Archive_NoReservations" xml:space="preserve">
+    <value>Nemáte žádné rezervace.</value>
+  </data>
+  <data name="My_Calendar_Manage" xml:space="preserve">
+    <value>Spravovat mé rezervace</value>
+  </data>
+  <data name="My_Calendar_Title" xml:space="preserve">
+    <value>Kalendář rezervací pro {0:y}</value>
+  </data>
+  <data name="My_Index_Archive" xml:space="preserve">
+    <value>Všechny moje rezervace</value>
+  </data>
+  <data name="My_Index_Msg_ReservationDeleted" xml:space="preserve">
+    <value>Rezervace byla úspěšně odstraněna.</value>
+  </data>
+  <data name="My_Index_NoReservations" xml:space="preserve">
+    <value>Nemáte žádné aktuální rezervace.</value>
+  </data>
+  <data name="My_Index_OpeningHours" xml:space="preserve">
+    <value>Otevírací doba v dalších dnech...</value>
+  </data>
+  <data name="My_Index_Reservations" xml:space="preserve">
+    <value>Plánované rezervace</value>
+  </data>
+  <data name="My_Index_Resources" xml:space="preserve">
+    <value>Dostupné prostředky</value>
+  </data>
+  <data name="My_Index_Title" xml:space="preserve">
+    <value>Vítejte v systému ReP - rezervace prostředků!</value>
+  </data>
+  <data name="My_Index_TodayLab_Closed" xml:space="preserve">
+    <value>Dnes je &lt;b&gt;zavřeno&lt;/b&gt;.</value>
+  </data>
+  <data name="My_Index_TodayLab_Open" xml:space="preserve">
+    <value>Dnes je &lt;b&gt;otevřeno {0}&lt;/b&gt;.</value>
+  </data>
+  <data name="My_Index_TomorrowLab_Closed" xml:space="preserve">
+    <value>Zítra je zavřeno.</value>
+  </data>
+  <data name="My_Index_TomorrowLab_Open" xml:space="preserve">
+    <value>Zítra je otevřeno {0}.</value>
+  </data>
+  <data name="My_News_NoNews" xml:space="preserve">
+    <value>Nejsou zveřejněny žádné zprávy.</value>
+  </data>
+  <data name="My_News_Title" xml:space="preserve">
+    <value>Novinky</value>
+  </data>
+  <data name="My_OpeningHours_Closed" xml:space="preserve">
+    <value>zavřeno</value>
+  </data>
+  <data name="My_OpeningHours_Title" xml:space="preserve">
+    <value>Otevírací doba</value>
+  </data>
+  <data name="My_Reservations_DeleteConfirm" xml:space="preserve">
+    <value>Opravdu chcete odstranit tuto rezervaci?</value>
+  </data>
+  <data name="My_Reservations_Err_Conflict" xml:space="preserve">
+    <value>Tato rezervace je v konfliktu s rezervací uživatele {0} od {1:d} {1:t}.</value>
+  </data>
+  <data name="My_Reservations_Err_Maxlength" xml:space="preserve">
+    <value>Maximální doba rezervace pro tento prostředek je {0} minut.</value>
+  </data>
+  <data name="My_Reservations_Err_OpeningHours" xml:space="preserve">
+    <value>Rezervace je mimo otevírací dobu.</value>
+  </data>
+  <data name="My_Reservations_Err_SingleDay" xml:space="preserve">
+    <value>Rezervace nemůže zahrnovat více dní.</value>
+  </data>
+  <data name="My_Reservations_Msg_Created" xml:space="preserve">
+    <value>Vaše rezervace byla úspěšně vytvořena.</value>
+  </data>
+  <data name="My_Reservations_New" xml:space="preserve">
+    <value>Nová rezervace</value>
+  </data>
+  <data name="My_Reservations_NewTitle" xml:space="preserve">
+    <value>Vytvořit novou rezervaci</value>
+  </data>
+  <data name="My_Settings_EmailConfirm_FailedHtml" xml:space="preserve">
+    <value>&lt;p&gt;Potvrzení se nezdařilo. Obvyklé důvody jsou:&lt;/p&gt; 
+&lt;ul&gt;
+&lt;li&gt;Adresa stránky je nesprávná nebo neúplná. E-mailový klient ji pravděpodobně rozdělil na více řádků.&lt;/li&gt;
+&lt;li&gt;Požadovaná e-mailová adresa je již v tomto systému používána jiným účtem.&lt;/li&gt;
+&lt;li&gt;Změna již byla potvrzena.&lt;/li&gt;
+&lt;li&gt;Potvrzovací odkaz je zastaralý. Prosím, spusťte změnu znovu.&lt;/li&gt;
+&lt;/ul&gt;</value>
+  </data>
+  <data name="My_Settings_EmailConfirm_TryAgain" xml:space="preserve">
+    <value>Zkusit znovu</value>
+  </data>
+  <data name="My_Settings_Email_InvalidPassword" xml:space="preserve">
+    <value>Neplatné heslo.</value>
+  </data>
+  <data name="My_Settings_Email_Title" xml:space="preserve">
+    <value>Změnit e-mailovou adresu</value>
+  </data>
+  <data name="My_Settings_Index_Change" xml:space="preserve">
+    <value>Změnit...</value>
+  </data>
+  <data name="My_Settings_Index_Language_CS" xml:space="preserve">
+    <value>Čeština</value>
+  </data>
+  <data name="My_Settings_Index_Language_EN" xml:space="preserve">
+    <value>Angličtina</value>
+  </data>
+  <data name="My_Settings_Index_Msg_ChangeEmail" xml:space="preserve">
+    <value>Právě jsme poslali e-mail na novou adresu, kterou jste zadali. Prosím, klikněte na odkaz ve zprávě pro potvrzení změny.</value>
+  </data>
+  <data name="My_Settings_Index_Msg_ChangeEmailDone" xml:space="preserve">
+    <value>Vaše e-mailová adresa byla úspěšně změněna.</value>
+  </data>
+  <data name="My_Settings_Index_Msg_ChangePassword" xml:space="preserve">
+    <value>Heslo bylo úspěšně změněno.</value>
+  </data>
+  <data name="My_Settings_Index_Msg_ChangeUserName" xml:space="preserve">
+    <value>Chcete-li změnit své uživatelské jméno, obraťte se na správce systému.</value>
+  </data>
+  <data name="My_Settings_Index_Msg_Delete" xml:space="preserve">
+    <value>Chcete-li účet odstranit, obraťte se na správce systému.</value>
+  </data>
+  <data name="My_Settings_Index_Msg_Saved" xml:space="preserve">
+    <value>Změny byly úspěšně uloženy.</value>
+  </data>
+  <data name="My_Settings_Index_Title" xml:space="preserve">
+    <value>Moje nastavení</value>
+  </data>
+  <data name="My_Settings_Mailing_System" xml:space="preserve">
+    <value>Zprávy související s účtem (vždy povoleno)</value>
+  </data>
+  <data name="My_Settings_Password_Title" xml:space="preserve">
+    <value>Změna hesla</value>
+  </data>
+  <data name="My_Settings_Privacy" xml:space="preserve">
+    <value>Soukromí</value>
+  </data>
+  <data name="TimeTagHelper_Today" xml:space="preserve">
+    <value>dnes, {0:t}</value>
+  </data>
+  <data name="TimeTagHelper_Tomorrow" xml:space="preserve">
+    <value>zítra, {0:t}</value>
+  </data>
+  <data name="TimeTagHelper_Yesterday" xml:space="preserve">
+    <value>včera, {0:t}</value>
+  </data>
+  <data name="_Cancel" xml:space="preserve">
+    <value>Storno</value>
+  </data>
+  <data name="_Create" xml:space="preserve">
+    <value>Vytvořit...</value>
+  </data>
+  <data name="_Delete" xml:space="preserve">
+    <value>Smazat</value>
+  </data>
+  <data name="_No" xml:space="preserve">
+    <value>Ne</value>
+  </data>
+  <data name="_OK" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="_Submit" xml:space="preserve">
+    <value>Odeslat</value>
+  </data>
+  <data name="_Yes" xml:space="preserve">
+    <value>Ano</value>
+  </data>
+  <data name="Layout_Menu_Directory" xml:space="preserve">
+    <value>Adresář</value>
+  </data>
+  <data name="My_Directory_Title" xml:space="preserve">
+    <value>Adresář</value>
+  </data>
+  <data name="My_Directory_IsEmpty" xml:space="preserve">
+    <value>Adresář je prázdný.</value>
+  </data>
+  <data name="Admin_DirectoryEntries_Title" xml:space="preserve">
+    <value>Záznamy v adresáři</value>
+  </data>
+  <data name="Admin_Index_ManageDirectory" xml:space="preserve">
+    <value>Správa položek adresáře</value>
+  </data>
+  <data name="Admin_DirectoryEntries_Index_Msg_Created" xml:space="preserve">
+    <value>Nová položka adresáře byla úspěšně vytvořena.</value>
+  </data>
+  <data name="Admin_DirectoryEntries_Index_Msg_Deleted" xml:space="preserve">
+    <value>Záznam v adresáři byl odstraněn.</value>
+  </data>
+  <data name="Admin_DirectoryEntries_Index_Msg_Saved" xml:space="preserve">
+    <value>Záznam v adresáři byl uložen.</value>
+  </data>
+  <data name="Admin_DirectoryEntry_Edit_Title" xml:space="preserve">
+    <value>Úprava položky adresáře</value>
+  </data>
+  <data name="My_Calendar_AddEntry" xml:space="preserve">
+    <value>Přidat událost</value>
+  </data>
+  <data name="Admin_Resources_Attachments_Title" xml:space="preserve">
+    <value>Přílohy pro {0}</value>
+  </data>
+  <data name="Admin_Resources_Attachments_AddAttachment" xml:space="preserve">
+    <value>Přidání nové přílohy</value>
+  </data>
+  <data name="Admin_Resources_Attachments_Current" xml:space="preserve">
+    <value>Aktuální přílohy</value>
+  </data>
+  <data name="Admin_Resources_Attachments_ConfirmDelete" xml:space="preserve">
+    <value>Opravdu chcete tuto přílohu odstranit?</value>
+  </data>
+  <data name="My_Reservations_Attachments" xml:space="preserve">
+    <value>Přílohy</value>
+  </data>
+</root>

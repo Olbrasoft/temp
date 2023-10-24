@@ -1,0 +1,34 @@
+﻿@page
+@model Altairis.ReP.Web.Pages.Admin.Reservations.IndexModel
+@{ this.ViewBag.Title = UI.Admin_Reservations_Index_Title; }
+
+<p visible="!Model.Reservations.Any()">@UI.Admin_Reservations_NoReservations</p>
+
+<table class="grid" visible="Model.Reservations.Any()">
+    <thead>
+        <tr>
+            <th>@Display.User</th>
+            <th>@Display.ResourceId</th>
+            <th>@Display.DateBegin</th>
+            <th>@Display.DateEnd</th>
+            <th>@Display.Comment</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var reservation in Model.Reservations) {
+            <tr>
+                <th><i class="fas fa-user"></i> <a asp-page="Edit" asp-route-reservationId="@reservation.Id">@reservation.UserDisplayName</a></th>
+                <th><i class="fas fa-cube"></i> @reservation.ResourceName</th>
+                <td><time value="@reservation.DateBegin"></time></td>
+                <td><time value="@reservation.DateEnd"></time></td>
+                <td>
+                    <i class="fas fa-wrench" visible="@reservation.System" title="@Display.Comment"></i>
+                    @reservation.Comment
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<modal-box id="deleted" message="@UI.My_Index_Msg_ReservationDeleted" />
+<modal-box id="saved" message="@UI.Admin_Reservations_Edit_Msg_Saved" />

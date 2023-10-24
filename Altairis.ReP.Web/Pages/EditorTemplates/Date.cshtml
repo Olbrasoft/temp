@@ -1,0 +1,16 @@
+﻿@{
+    this.Layout = "_Layout.cshtml";
+    var value = string.Empty;
+    if (ViewData.Model != null) {
+        var dtVal = (DateTime)ViewData.Model;
+        if (dtVal > DateTime.MinValue) {
+            value = dtVal.ToString("yyyy-MM-dd");
+        }
+    }
+    var htmlAttributes = new {
+        type = "date",
+        @class = "textbox",
+        placeholder = ViewData.ModelMetadata.Placeholder,
+    };
+}
+@Html.TextBox("", value, htmlAttributes)
